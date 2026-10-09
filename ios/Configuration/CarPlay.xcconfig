@@ -1,0 +1,6 @@
+// Use only for CarPlay development; distribution requires Apple approval.
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) FONOO_CARPLAY
+INFOPLIST_FILE = Configuration/CarPlay-Info.plist
+CODE_SIGN_ENTITLEMENTS = Configuration/CarPlay.entitlements
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO
+GENERATE_INFOPLIST_FILE = NO

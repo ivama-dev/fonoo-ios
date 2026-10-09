@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9CA00000000000000000001 /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9CA00000000000000000001 /* AppIntentVocabulary.plist */; };
+		B8CA00000000000000000001 /* SystemCallActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA00000000000000000001 /* SystemCallActivity.swift */; };
+		B7CA00000000000000000001 /* CarPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CA00000000000000000001 /* CarPlay.swift */; };
+		B5CA00000000000000000001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A5CA00000000000000000001 /* PrivacyInfo.xcprivacy */; };
+		0A0C134B5A40F6BE131672FF /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADFFC45853C5B72B2979134 /* CallManager.swift */; };
+		1E3D59DFE5B8BFBAC764F784 /* LinphoneSIPCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FA54E7346AA8447B6E354 /* LinphoneSIPCore.swift */; };
+		2470DAB5B79E4BBCC14AFE90 /* DeviceContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1724908751930713FB9B1958 /* DeviceContact.swift */; };
+		4656698F0DDED6E1A5DB8444 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BCA438417D62B8BB39B2EE /* Views.swift */; };
+		54E9BF0FB9E5A4AC268C41FD /* ContactsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA13ABC6CE1811410C93370F /* ContactsDirectory.swift */; };
+		5A0EEC48561DC6526B30B5A1 /* Diagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256AD0C693D219EE43858F5 /* Diagnostics.swift */; };
+		7911E59079629FA6E1C6CD81 /* FonooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AEF290683FEF19B02E5E0 /* FonooApp.swift */; };
+		876535ED6CABC26FBA8B5F84 /* linphonesw in Frameworks */ = {isa = PBXBuildFile; productRef = 06AB12F03A5B668520A661ED /* linphonesw */; };
+		896393087E2BF215F889C431 /* AccountStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B05606D161FAC1719A8601 /* AccountStore.swift */; };
+		9D34344FC75C89753C8D0066 /* SIPSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73D8BEA78B91713F77BB65 /* SIPSettingsView.swift */; };
+		ADCF117E1B76F08430712A8D /* PhoneStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF628851D5981C12303F952 /* PhoneStore.swift */; };
+		B2CA00000000000000000000 /* IncomingCallCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA00000000000000000000 /* IncomingCallCoordinator.swift */; };
+		B2CA00000000000000000001 /* SystemIncomingCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CA00000000000000000001 /* SystemIncomingCalls.swift */; };
+		B3CA00000000000000000001 /* CustomerAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CA00000000000000000001 /* CustomerAccount.swift */; };
+		B4A511A53A4A65F6E71BD64A /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667D03A3E96267D4E3F9A545 /* NetworkMonitor.swift */; };
+		C7220E20D79704910C05A9DD /* CallSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A5BDF4E76886D46FA78B8 /* CallSession.swift */; };
+		CC3D322D803D90F4DF196EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3685E330EC5277A9DD5661C6 /* Assets.xcassets */; };
+		CC547670C6807F166594C902 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A8D41FD7AE6CA47B2497B5 /* AudioManager.swift */; };
+		D6D1DD9689C970AC905748DD /* SIPAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCBC38DEB91E398D71E92A2 /* SIPAccount.swift */; };
+		DCC65F99C335DF5B4A9960BB /* DeviceContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7DF751724AD32994F36D8 /* DeviceContactsView.swift */; };
+		E7D83E04AD019530C6F61567 /* SIPCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4290C3CF6D2E2C2BEAD0595 /* SIPCore.swift */; };
+		B75AB9D3E42C3D71EBCA4BF6 /* TeamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8FA6A4B8F948B014F6744C /* TeamMember.swift */; };
+		D1BCD4E29B21A18804D4F0EC /* TeamDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D4AD722475E841BFA9754 /* TeamDirectory.swift */; };
+		88D91B872E5C902D9112A8BD /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2442174F996F404AAEF6582 /* TeamView.swift */; };
+		05B143109CF0EE94FF39FFF2 /* TeamPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B56EF1AFA3739D21871198 /* TeamPreview.swift */; };
+		245B30970225D276A6BB2C45 /* SIPConnectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D528EA33647C80B7DE28BDDF /* SIPConnectionCoordinator.swift */; };
+		C11B7FE7A91939B6CEA3C522 /* SIPConnectionStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D833AC78856189172D440 /* SIPConnectionStatusView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        A9CA00000000000000000001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+        A9CA00000000000000000002 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		A8CA00000000000000000001 /* SystemCallActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemCallActivity.swift; sourceTree = "<group>"; };
+		A7CA00000000000000000001 /* CarPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlay.swift; sourceTree = "<group>"; };
+		A5CA00000000000000000001 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		10B05606D161FAC1719A8601 /* AccountStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStore.swift; sourceTree = "<group>"; };
+		1724908751930713FB9B1958 /* DeviceContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceContact.swift; sourceTree = "<group>"; };
+		2F7FA54E7346AA8447B6E354 /* LinphoneSIPCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinphoneSIPCore.swift; sourceTree = "<group>"; };
+		3685E330EC5277A9DD5661C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 /* Fonoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF628851D5981C12303F952 /* PhoneStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneStore.swift; sourceTree = "<group>"; };
+		5256AD0C693D219EE43858F5 /* Diagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostics.swift; sourceTree = "<group>"; };
+		667D03A3E96267D4E3F9A545 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		833A5BDF4E76886D46FA78B8 /* CallSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSession.swift; sourceTree = "<group>"; };
+		A2CA00000000000000000000 /* IncomingCallCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCallCoordinator.swift; sourceTree = "<group>"; };
+		A2CA00000000000000000001 /* SystemIncomingCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIncomingCalls.swift; sourceTree = "<group>"; };
+		A3CA00000000000000000001 /* CustomerAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerAccount.swift; sourceTree = "<group>"; };
+		A9BCA438417D62B8BB39B2EE /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		BA13ABC6CE1811410C93370F /* ContactsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDirectory.swift; sourceTree = "<group>"; };
+		BF73D8BEA78B91713F77BB65 /* SIPSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPSettingsView.swift; sourceTree = "<group>"; };
+		CADFFC45853C5B72B2979134 /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		CE8AEF290683FEF19B02E5E0 /* FonooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonooApp.swift; sourceTree = "<group>"; };
+		D1A8D41FD7AE6CA47B2497B5 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		DEE7DF751724AD32994F36D8 /* DeviceContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceContactsView.swift; sourceTree = "<group>"; };
+		F4290C3CF6D2E2C2BEAD0595 /* SIPCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPCore.swift; sourceTree = "<group>"; };
+		FDCBC38DEB91E398D71E92A2 /* SIPAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPAccount.swift; sourceTree = "<group>"; };
+		4A8FA6A4B8F948B014F6744C /* TeamMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMember.swift; sourceTree = "<group>"; };
+		F97D4AD722475E841BFA9754 /* TeamDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDirectory.swift; sourceTree = "<group>"; };
+		A2442174F996F404AAEF6582 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		88B56EF1AFA3739D21871198 /* TeamPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPreview.swift; sourceTree = "<group>"; };
+		D528EA33647C80B7DE28BDDF /* SIPConnectionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPConnectionCoordinator.swift; sourceTree = "<group>"; };
+		9C8D833AC78856189172D440 /* SIPConnectionStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPConnectionStatusView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876535ED6CABC26FBA8B5F84 /* linphonesw in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500A096B8A0044C96F4B0E55 /* Fonoo */ = {
+			isa = PBXGroup;
+			children = (
+                C9CA00000000000000000001 /* AppIntentVocabulary.plist */,
+				A2CA00000000000000000000 /* IncomingCallCoordinator.swift */,
+				A3CA00000000000000000001 /* CustomerAccount.swift */,
+				88B56EF1AFA3739D21871198 /* TeamPreview.swift */,
+				A2442174F996F404AAEF6582 /* TeamView.swift */,
+				F97D4AD722475E841BFA9754 /* TeamDirectory.swift */,
+				4A8FA6A4B8F948B014F6744C /* TeamMember.swift */,
+				A2CA00000000000000000001 /* SystemIncomingCalls.swift */,
+				A7CA00000000000000000001 /* CarPlay.swift */,
+				CE8AEF290683FEF19B02E5E0 /* FonooApp.swift */,
+				A8CA00000000000000000001 /* SystemCallActivity.swift */,
+				833A5BDF4E76886D46FA78B8 /* CallSession.swift */,
+				4CF628851D5981C12303F952 /* PhoneStore.swift */,
+				A9BCA438417D62B8BB39B2EE /* Views.swift */,
+				3685E330EC5277A9DD5661C6 /* Assets.xcassets */,
+				A5CA00000000000000000001 /* PrivacyInfo.xcprivacy */,
+				1724908751930713FB9B1958 /* DeviceContact.swift */,
+				BA13ABC6CE1811410C93370F /* ContactsDirectory.swift */,
+				DEE7DF751724AD32994F36D8 /* DeviceContactsView.swift */,
+				F4290C3CF6D2E2C2BEAD0595 /* SIPCore.swift */,
+				9C8D833AC78856189172D440 /* SIPConnectionStatusView.swift */,
+				D528EA33647C80B7DE28BDDF /* SIPConnectionCoordinator.swift */,
+				2F7FA54E7346AA8447B6E354 /* LinphoneSIPCore.swift */,
+				CADFFC45853C5B72B2979134 /* CallManager.swift */,
+				D1A8D41FD7AE6CA47B2497B5 /* AudioManager.swift */,
+				667D03A3E96267D4E3F9A545 /* NetworkMonitor.swift */,
+				5256AD0C693D219EE43858F5 /* Diagnostics.swift */,
+				FDCBC38DEB91E398D71E92A2 /* SIPAccount.swift */,
+				10B05606D161FAC1719A8601 /* AccountStore.swift */,
+				BF73D8BEA78B91713F77BB65 /* SIPSettingsView.swift */,
+			);
+			path = Fonoo;
+			sourceTree = "<group>";
+		};
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				500A096B8A0044C96F4B0E55 /* Fonoo */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* Fonoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* Fonoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BA35986C8D108192A74E6F /* Build configuration list for PBXNativeTarget "Fonoo" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fonoo;
+			packageProductDependencies = (
+				06AB12F03A5B668520A661ED /* linphonesw */,
+			);
+			productName = Fonoo;
+			productReference = 38A007151ABE87CC01A5B6E9 /* Fonoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FA52021448A4AC7DE6CD200E /* Build configuration list for PBXProject "Fonoo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				en,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			packageReferences = (
+				9118275393B8CE1AF70D43F9 /* XCRemoteSwiftPackageReference "linphone-sdk-swift-ios" */,
+			);
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* Fonoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3D322D803D90F4DF196EE0 /* Assets.xcassets in Resources */,
+				B5CA00000000000000000001 /* PrivacyInfo.xcprivacy in Resources */,
+                B9CA00000000000000000001 /* AppIntentVocabulary.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXVariantGroup section */
+        C9CA00000000000000000001 /* AppIntentVocabulary.plist */ = {
+            isa = PBXVariantGroup;
+            children = ( A9CA00000000000000000001 /* en */, A9CA00000000000000000002 /* de */, );
+            name = AppIntentVocabulary.plist;
+            sourceTree = "<group>";
+        };
+/* End PBXVariantGroup section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CA00000000000000000000 /* IncomingCallCoordinator.swift in Sources */,
+				B3CA00000000000000000001 /* CustomerAccount.swift in Sources */,
+				05B143109CF0EE94FF39FFF2 /* TeamPreview.swift in Sources */,
+				88D91B872E5C902D9112A8BD /* TeamView.swift in Sources */,
+				D1BCD4E29B21A18804D4F0EC /* TeamDirectory.swift in Sources */,
+				B75AB9D3E42C3D71EBCA4BF6 /* TeamMember.swift in Sources */,
+				B2CA00000000000000000001 /* SystemIncomingCalls.swift in Sources */,
+				B7CA00000000000000000001 /* CarPlay.swift in Sources */,
+				7911E59079629FA6E1C6CD81 /* FonooApp.swift in Sources */,
+				B8CA00000000000000000001 /* SystemCallActivity.swift in Sources */,
+				C7220E20D79704910C05A9DD /* CallSession.swift in Sources */,
+				ADCF117E1B76F08430712A8D /* PhoneStore.swift in Sources */,
+				4656698F0DDED6E1A5DB8444 /* Views.swift in Sources */,
+				2470DAB5B79E4BBCC14AFE90 /* DeviceContact.swift in Sources */,
+				54E9BF0FB9E5A4AC268C41FD /* ContactsDirectory.swift in Sources */,
+				DCC65F99C335DF5B4A9960BB /* DeviceContactsView.swift in Sources */,
+				E7D83E04AD019530C6F61567 /* SIPCore.swift in Sources */,
+				C11B7FE7A91939B6CEA3C522 /* SIPConnectionStatusView.swift in Sources */,
+				245B30970225D276A6BB2C45 /* SIPConnectionCoordinator.swift in Sources */,
+				1E3D59DFE5B8BFBAC764F784 /* LinphoneSIPCore.swift in Sources */,
+				0A0C134B5A40F6BE131672FF /* CallManager.swift in Sources */,
+				CC547670C6807F166594C902 /* AudioManager.swift in Sources */,
+				B4A511A53A4A65F6E71BD64A /* NetworkMonitor.swift in Sources */,
+				5A0EEC48561DC6526B30B5A1 /* Diagnostics.swift in Sources */,
+				D6D1DD9689C970AC905748DD /* SIPAccount.swift in Sources */,
+				896393087E2BF215F889C431 /* AccountStore.swift in Sources */,
+				9D34344FC75C89753C8D0066 /* SIPSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BA2A0D92BE8C4CB7BC99606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarPlay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 26;
+				DEVELOPMENT_TEAM = T8KX8P7FUS;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Configuration/CarPlay-Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = fonoo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "fonoo verwendet die Kamera zum Scannen deines Einrichtungscodes.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "fonoo benötigt Zugriff auf Namen und Telefonnummern, damit du deine iPhone-Kontakte suchen und anrufen kannst. Dein Adressbuch wird nicht hochgeladen.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "fonoo verbindet sich mit deiner Telefonanlage im lokalen Netzwerk.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "fonoo benötigt das Mikrofon für deine Telefongespräche.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.fonoo.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) FONOO_CARPLAY";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		60BA48D99B3C23F8993C3458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Configuration/CarPlay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 26;
+				DEVELOPMENT_TEAM = T8KX8P7FUS;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Configuration/CarPlay-Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = fonoo;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "fonoo verwendet die Kamera zum Scannen deines Einrichtungscodes.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "fonoo benötigt Zugriff auf Namen und Telefonnummern, damit du deine iPhone-Kontakte suchen und anrufen kannst. Dein Adressbuch wird nicht hochgeladen.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "fonoo verbindet sich mit deiner Telefonanlage im lokalen Netzwerk.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "fonoo benötigt das Mikrofon für deine Telefongespräche.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.fonoo.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) FONOO_CARPLAY";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B2C3C6A624C4C8479FDD1FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CACD8F8D7E01D03300A42FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20BA35986C8D108192A74E6F /* Build configuration list for PBXNativeTarget "Fonoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA2A0D92BE8C4CB7BC99606 /* Debug */,
+				60BA48D99B3C23F8993C3458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA52021448A4AC7DE6CD200E /* Build configuration list for PBXProject "Fonoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACD8F8D7E01D03300A42FA5 /* Debug */,
+				B2C3C6A624C4C8479FDD1FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9118275393B8CE1AF70D43F9 /* XCRemoteSwiftPackageReference "linphone-sdk-swift-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BelledonneCommunications/linphone-sdk-swift-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.5.23;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06AB12F03A5B668520A661ED /* linphonesw */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9118275393B8CE1AF70D43F9 /* XCRemoteSwiftPackageReference "linphone-sdk-swift-ios" */;
+			productName = linphonesw;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

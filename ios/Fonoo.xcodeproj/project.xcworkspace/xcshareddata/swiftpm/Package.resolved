@@ -1,0 +1,15 @@
+{
+  "originHash" : "e8144432ff308938da64dea08c1bcf04c3d497c5b70f2875201193993d5b6bfd",
+  "pins" : [
+    {
+      "identity" : "linphone-sdk-swift-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BelledonneCommunications/linphone-sdk-swift-ios.git",
+      "state" : {
+        "revision" : "45d682b2a25a98f6bf588d91967b1f11d54fab59",
+        "version" : "5.5.23"
+      }
+    }
+  ],
+  "version" : 3
+}
