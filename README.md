@@ -23,8 +23,10 @@ Simulator-Builds regulär signieren: Ohne App-Identität kann der Schlüsselbund
 
 Die [Mac-App](https://github.com/ivama-dev/fonoo-macos) übernimmt einen kontrollierten Stand der gemeinsamen Dateien. Änderungen an Konto-, Verbindungs- und API-Modellen müssen auf beiden Plattformen abgestimmt werden.
 
-## Übernahme und Lizenzen
+## Übernahme
 
 Übernommen wurde der aktuelle Quellstand vom 9. Oktober 2026 (Build 26). Laufzeitcode und Bundle-Identitäten bleiben erhalten. Die bisherige private Git-Historie bleibt im ursprünglichen Repository; sie wurde wegen des dort enthaltenen Servercodes nicht in dieses App-Repository übernommen. Historische Betriebs-/TestFlight-Notizen und interne Screenshots verbleiben ebenfalls dort. Die Migration veröffentlicht keine neue TestFlight-/Store-Version.
 
-[Drittanbieter und Lizenzdateien](THIRD-PARTY-NOTICES.md). Automatische GitHub-Prüfungen verwenden synthetische Daten und benötigen keine Produktionszugänge.
+## Lizenz
+
+Die fonoo-iOS-App steht wie der Windows-Client unter **GNU Affero General Public License v3 oder später** (`AGPL-3.0-or-later`). Siehe [LICENSE](LICENSE) und [NOTICE.md](NOTICE.md). Drittanbieter behalten ihre eigenen Lizenzen; [Hinweise und unveränderte Lizenzdateien](THIRD-PARTY-NOTICES.md). Automatische GitHub-Prüfungen verwenden synthetische Daten und benötigen keine Produktionszugänge.
