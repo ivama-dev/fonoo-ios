@@ -1,0 +1,29 @@
+name: App checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: app-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  models:
+    name: Apple model checks
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check iOS shared models
+        env:
+          FONOO_CHECK_BUILD_DIR: ${{ runner.temp }}/FonooIOSModels
+        run: bash ios/Checks/run-checks.sh
+      - name: Check account provisioning
+        run: python3 ios/Checks/customer-provisioning-checks.py
